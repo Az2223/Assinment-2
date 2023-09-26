@@ -1,0 +1,10 @@
+@media screen and (max-width: 800px){
+    .firstbaner{
+        flex-direction: column;
+    }
+    .firstside{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
