@@ -6,5 +6,89 @@
         flex-direction: column;
         width: 100%;
     }
-    
+    /* second */
+    .secondbaner{
+        flex-direction: column;
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        /* padding: 0px 20px; */
+    }
+    .item-2{
+        width: 100%;
+        align-items:center;
+    }
+    .item-2 img{
+        width: 100%;
+    }
+    /* three */
+    .banerthree{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banerthree img{
+        width:100%;
+        align-items: center;
+    }
+    .item-3{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .four{
+        flex-direction: column;
+    }
+    .item-4{
+        flex-direction: column;
+        width: 100%;
+        align-items:center;
+        text-align: center;
+    }
+    /*five*/
+    .five{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .img-2{
+        flex-direction:column;
+        width:100%;
+    }
+    .add-2{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        align-items: center;
+        left: -55%;
+        top: 10px;
+    }
+    .sponcor-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .sponcor-see{
+        align-items: center;
+        text-align: center;
+    }
+    .brt-primary{
+        flex-wrap: wrap;
+        flex-basis: 200px;
+        width: 100%;
+    }
+    .last-baner{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 0%;
+    }
+    .icon{
+        width:20%;
+        padding: 0% 25% ;
+    }
 }

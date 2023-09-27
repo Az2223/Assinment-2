@@ -1,13 +1,9 @@
 .firstbaner{
-    /* min-height: 50px; */
-    display: flex;
+    display:flex;
     align-items:center;
-    /* max-width: 1400px; */
-    /* margin: 0  auto; */
 }
 
 .firstbaner{
-    /* border: 1px solid green; */
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -42,27 +38,241 @@
     display: flex;
     gap: 5px;
     border-radius: 5px;
+    border: none;
 }
+/* second */
 .secondbaner{
-    border: 1px solid red;
-    display: flex;
-     /* width:100%; */
-    justify-content: space-between;
-    background-color: whitesmoke;
+    display:flex;
+    justify-content:space-between;
+    padding: 20px;
 }
 .item{
-    border: 1px solid green;
     width: 50%;
-    padding: 0px 60px;
+    padding: 0px 50px;
+    background-color: #faf8f9;
 }
 .item-2{
-    border: 1px solid green;
-    /* width: 50%; */
-    align-content: right;
-    padding: 0px 60px;
+    width: 30%;
+     align-content:center;
 }
 .img{
     height:350px;
     width: 300px;
     align-items:;
+}
+.G{
+     font-size: 35px;
+     background: linear-gradient(to left,
+     violet,
+     indigo,
+     blue,
+     green,
+     yellow,
+     orange,
+     red);
+-webkit-background-clip: text;
+color: transparent;
+}
+.p{
+    font-size: 15px;
+    color: #534C64;
+}
+.brt-1{
+    color: white;
+    background-color: #f948b2;
+    border-radius: 13px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+.brt-2{
+    color: white;
+    background-color: skyblue;
+    border-radius: 13px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+/* three */
+.banerthree{
+   
+    display: flex;
+    padding:20px;
+}
+.w{
+    background: linear-gradient(to left,
+violet,
+indigo,
+blue,
+green,
+yellow,
+orange,
+red);
+-webkit-background-clip: text;
+color: transparent;
+}
+.img-1{
+    width:50%;
+}
+.item-3{
+    background-color: rgb(241, 235, 236);
+    width:50%;
+    align-items: right;
+    text-align: right;
+    padding: 40px;
+}
+.p1{
+    font-size: 20px;
+}
+/* four */
+.four{
+}
+.item-4{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+}
+.middle-icon{
+    height: 60px;
+    width: 25px;
+    position: relative;
+    left: -50%;
+    top: -105px;
+}
+.middle-iconimg{
+    position: relative;
+}
+.aline{
+    align-items: center;
+    text-align: center;
+    
+}
+.F-clg{
+    background: linear-gradient(to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.pra{
+    font-size: 13px;
+}
+/* five */
+.five{
+    display: flex;
+    justify-content: space-between;
+}
+.item-5{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    bottom: 20px;
+}
+.img-2{
+    width: 50%;
+}
+.add-1{
+    height: 450px;
+    width: 450px;
+    position: relative;
+}
+.add-2{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    align-items: center;
+    left: -55%;
+    top: 10px;
+}
+.clr{
+    color: #f948b2;
+}
+/* six */
+.sponcor{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ 
+}
+.brt-primary{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 20px;
+    flex-basis: 350px;
+    padding: 20px;
+    border:none;
+    background: none;
+}
+.brt-primary :hover{
+    cursor:all-scroll;
+    border: 1px solid pink;
+    border-radius: 50%;
+    background-color: #f948b2;
+}
+.sponcor-see{
+    padding: 20px;
+    color: #f948b2;
+    background-color: whitesmoke;
+    border:1px solid #faf8f9;
+    border-radius: 15px;
+    width:10%;
+    font-size: 20px;
+}
+/* seven */
+.last-baner{
+    background-color:navy;
+    padding: 30px;
+}
+.logo{
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    padding-left: 45%;
+}
+.color{
+    color: #f948b2;
+}
+.ficture{
+    display: flex;
+    justify-content: space-between;
+    padding:2% 30%;   
+}
+.ficture a{
+text-decoration: none;
+color: white;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+     padding:2% 40%;
+     }
+.icon img{
+    width:40px;
+}
+.privacy{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 30%;
+}
+.privacy a{
+    color: white;
+    text-decoration: none;
+}
+.game{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 40%;
+}
+.game p{
+    color: white;
 }
